@@ -1,0 +1,16 @@
+{
+  "name": "static-website",
+  "version": "1.0.0",
+  "description": "A static HTML, CSS, and JavaScript website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve -s . -l 5173",
+    "start": "npx serve -s . -l 5173"
+  },
+  "keywords": ["html", "css", "javascript", "static"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}

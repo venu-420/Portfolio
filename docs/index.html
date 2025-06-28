@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venugopal - Full Stack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Venugopal V</span>
+                <div class="logo-dot"></div>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#certifications" class="nav-link">Certifications</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="greeting">Hello, I'm</span>
+                        <span class="name">Venugopal V</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        <span class="typing-text"></span>
+                        <span class="cursor">|</span>
+                    </h2>
+                    <p class="hero-description">
+                        Building real-world solutions with code. Passionate about creating innovative applications that make a difference.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="resume.pdf" download class="btn btn-secondary">
+                            <i class="fas fa-download"></i>
+                            Download Resume
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card">
+                        <div class="profile-image">
+                            <img src="img.png" alt="Venugopal V" id="profile-img">
+                        </div>
+                        <div class="floating-elements">
+                            <div class="floating-icon" style="--delay: 0s">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <div class="floating-icon" style="--delay: 1s">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <div class="floating-icon" style="--delay: 2s">
+                                <i class="fab fa-python"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        I'm a passionate B.Tech Information Technology student with a strong foundation in full-stack development. 
+                        Currently pursuing my bavhelor degree at nandha College of technology, Tamil Nadu, I'm dedicated to creating innovative solutions 
+                        that bridge the gap between technology and real-world problems.
+                    </p>
+                    <p class="about-description">
+                        My journey in programming started with Java, and I've since expanded my expertise to include modern 
+                        web technologies, cloud computing, and mobile development. I believe in continuous learning and 
+                        staying updated with the latest industry trends.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="4">0</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="15">0</span>
+                            <span class="stat-label">Certifications</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="3">0</span>
+                            <span class="stat-label">Years Learning</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-card">
+                        <div class="card-content">
+                            <h3>Education</h3>
+                            <div class="education-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <div>
+                                    <h4>B.Tech Information Technology</h4>
+                                    <p>Nandha College of Technology</p>
+                                    <span>2022 - 2026(present)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">My technical expertise</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">Programming Languages</h3>
+                    <div class="skills-list">
+                        <div class="skill-item" data-skill="90">
+                            <div class="skill-info">
+                                <span class="skill-name">Java</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="85">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="80">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="95">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML/CSS</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Frameworks & Libraries</h3>
+                    <div class="skills-list">
+                        <div class="skill-item" data-skill="75">
+                            <div class="skill-info">
+                                <span class="skill-name">React</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="70">
+                            <div class="skill-info">
+                                <span class="skill-name">Node.js</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <!-- <div class="skill-item" data-skill="80">
+                            <div class="skill-info">
+                                <span class="skill-name">Flask</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Databases & Tools</h3>
+                    <div class="skills-list">
+                        <div class="skill-item" data-skill="85">
+                            <div class="skill-info">
+                                <span class="skill-name">MySQL</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="75">
+                            <div class="skill-info">
+                                <span class="skill-name">MongoDB</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="90">
+                            <div class="skill-info">
+                                <span class="skill-name">Git</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Text-to-Voice Chat App">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/venu-420" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Text-to-Voice Chat App</h3>
+                        <p class="project-description">
+                            An innovative chat application with text-to-speech functionality, built using modern web technologies.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Web Speech API</span>
+                            <span class="tech-tag">CSS3</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/4207892/pexels-photo-4207892.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Smart Irrigation System">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/venu-420" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Smart Irrigation System</h3>
+                        <p class="project-description">
+                            IoT-based irrigation system that automatically waters plants based on soil moisture levels.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">IoT</span>
+                            <span class="tech-tag">Flask</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/5483077/pexels-photo-5483077.jpeg?auto=compress&cs=tinysrgb&w=600" alt="AI Price Negotiator">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/venu-420" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI-Powered Price Negotiator</h3>
+                        <p class="project-description">
+                            Machine learning application that helps users negotiate better prices using AI algorithms.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Machine Learning</span>
+                            <span class="tech-tag">Flask</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Attendance Tracker">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/venu-420" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Attendance Tracker</h3>
+                        <p class="project-description">
+                            Mobile application for tracking attendance with real-time synchronization and analytics.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Flutter</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Certifications & Achievements</h2>
+                <p class="section-subtitle">My learning journey</p>
+            </div>
+            <div class="certifications-grid">
+                 <div class="cert-card">
+                    <div class="cert-image">
+                        <img src="certificates/full stack development internship (zeazh)_page-0001.jpg" alt="Full Stack Web Development Certificate">
+                        <div class="cert-overlay">
+                            <a href="certificates/full stack development internship (zeazh)_page-0001.jpg" download="Full_Stack_Web_Development_Certificate.jpg" class="download-btn">
+                                <i class="fas fa-download"></i>
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cert-content">
+                        
+                        <h3 class="cert-title">Full Stack Web Development Intern</h3>
+                        <p class="cert-issuer">Zeazh</p>
+                        <p class="cert-date">1st November 2024 - 30th November 2024</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-image">
+                        <img src="certificates/Zen1Tech park.jpg" alt="Java Full Stack Intern Certificate">
+                        <div class="cert-overlay">
+                            <a href="certificates/Zen1Tech park.jpg" download="Java_Intern_Certificate.jpg" class="download-btn">
+                                <i class="fas fa-download"></i>
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">Java Full Stack Intern</h3>
+                        <p class="cert-issuer">Zen1Tech Park</p>
+                        <p class="cert-date">25th July 2024 -10th August 2024</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-image">
+                        <img src="certificates/NPTEL(Programming in Java)_page-0001.jpg" alt="Java Programming Certificate">
+                        <div class="cert-overlay">
+                            <a href="certificates/NPTEL(Programming in Java)_page-0001.jpg" download="Java_Programming_Certificate.jpg" class="download-btn">
+                                <i class="fas fa-download"></i>
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cert-content">
+                        <!-- <div class="cert-icon">
+                            <i class="fab fa-java"></i>
+                        </div> -->
+                        <h3 class="cert-title">Java Programming</h3>
+                        <p class="cert-issuer">NPTEL</p>
+                        <p class="cert-date">2024</p>
+                    </div>
+                </div>
+                 <div class="cert-card">
+                    <div class="cert-image">
+                        <img src="certificates/NPTEL (Data Base Management System)_page-0001.jpg" alt="Database Management System Certificate">
+                        <div class="cert-overlay">
+                            <a href="certificates/NPTEL (Data Base Management System)_page-0001.jpg" download="Database_Management_System_Certificate.jpg" class="download-btn">
+                                <i class="fas fa-download"></i>
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cert-content">
+                        
+                        <h3 class="cert-title">Database Management System</h3>
+                        <p class="cert-issuer">NPTEL</p>
+                        <p class="cert-date">2025</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-image">
+                        <img src="certificates/Oracle naan muthalvan_page-0001.jpg" alt="Oracle Cloud Infrastructure Certificate">
+                        <div class="cert-overlay">
+                            <a href="certificates/Oracle naan muthalvan_page-0001.jpg" download="Oracle_Cloud_Certificate.jpg" class="download-btn">
+                                <i class="fas fa-download"></i>
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cert-content">
+                      
+                        <h3 class="cert-title">Oracle Cloud Infrastructure</h3>
+                        <p class="cert-issuer">Oracle - AI Foundation</p>
+                        <p class="cert-date">2023</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-image">
+                        <img src="certificates/full stack_page-0001.jpg" alt="Full Stack Development Certificate">
+                        <div class="cert-overlay">
+                            <a href="certificates/full stack_page-0001.jpg" download="Full_Stack_Certificate.jpg" class="download-btn">
+                                <i class="fas fa-download"></i>
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cert-content">
+                        
+                        <h3 class="cert-title">Full Stack Development</h3>
+                        <p class="cert-issuer">Novitech</p>
+                        <p class="cert-date">2023</p>
+                    </div>
+                </div>
+                 <div class="cert-card">
+                    <div class="cert-image">
+                        <img src="certificates/HakerRank(java_basic certificate)_page-0001.jpg" alt="Java Certificate">
+                        <div class="cert-overlay">
+                            <a href="certificates/HakerRank(java_basic certificate)_page-0001.jpg" download="Java_Certificate.jpg" class="download-btn">
+                                <i class="fas fa-download"></i>
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cert-content">
+                        
+                        <h3 class="cert-title">Java</h3>
+                        <p class="cert-issuer">HackerRank</p>
+                        <p class="cert-date">2025</p>
+                    </div>
+                </div>
+                 <div class="cert-card">
+                    <div class="cert-image">
+                        <img src="certificates/HakerRank(problem_solving_basic certificate)_page-0001.jpg" alt="Problem Solving Certificate">
+                        <div class="cert-overlay">
+                            <a href="certificates/HakerRank(problem_solving_basic certificate)_page-0001.jpg" download="Problem_Solving_Certificate.jpg" class="download-btn">
+                                <i class="fas fa-download"></i>
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cert-content">
+                        
+                        <h3 class="cert-title">Problem Solving</h3>
+                        <p class="cert-issuer">HackerRank</p>
+                        <p class="cert-date">2025</p>
+                    </div>
+                </div>
+                 <div class="cert-card">
+                    <div class="cert-image">
+                        <img src="certificates/Revolution of networking in IT(WorkShop).jpg" alt="Revolution of Networking in IT Infrastructure Workshop Certificate">
+                        <div class="cert-overlay">
+                            <a href="certificates/Revolution of networking in IT(WorkShop).jpg" download="Revolution_of_Networking_in_IT_Infrastructure_Workshop_Certificate.jpg" class="download-btn">
+                                <i class="fas fa-download"></i>
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cert-content">
+                        
+                        <h3 class="cert-title">Revolution of Networking in IT Infrastructure WOrkshop</h3>
+                        <p class="cert-issuer">KGISL Micro College</p>
+                        <p class="cert-date">2024</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-image">
+                        <img src="certificates/Mastering Ethical Hackin Workshop.jpg" alt="Mastering Ethical Hacking Workshop Certificate">
+                        <div class="cert-overlay">
+                            <a href="certificates/Mastering Ethical Hackin Workshop.jpg" download="Mastering_Ethical_Hacking_Workshop_Certificate.jpg" class="download-btn">
+                                <i class="fas fa-download"></i>
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cert-content">
+                        
+                        <h3 class="cert-title">Mastering Ethical Hacking Workshop</h3>
+                        <p class="cert-issuer">KSR Intitute of Engineering and Technology</p>
+                        <p class="cert-date">2023</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-image">
+                        <img src="certificates/Hackathon.jpg" alt="Hackahton Certificate">
+                        <div class="cert-overlay">
+                            <a href="certificates/Hackathon.jpg" download="Hackathon_Certificate.jpg" class="download-btn">
+                                <i class="fas fa-download"></i>
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cert-content">
+                        
+                        <h3 class="cert-title">Hackathon</h3>
+                        <p class="cert-issuer">SNS College Of Engineering</p>
+                        <p class="cert-date">20th November 2023 - 21st November 2023</p>
+                    </div>
+                </div>
+                 <div class="cert-card">
+                    <div class="cert-image">
+                        <img src="certificates/project presentation(Nandha).jpg" alt="Project Presentation Certificate">
+                        <div class="cert-overlay">
+                            <a href="certificates/project presentation(Nandha).jpg" download="Project_Presentation_Certificate.jpg" class="download-btn">
+                                <i class="fas fa-download"></i>
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cert-content">
+                        
+                        <h3 class="cert-title">Project Presentation</h3>
+                        <p class="cert-issuer">Nandha College of Technology</p>
+                        <p class="cert-date">2024</p>
+                    </div>
+                </div>
+                  <div class="cert-card">
+                    <div class="cert-image">
+                        <img src="certificates/code cracking.jpg" alt="Code Cracking Certificate">
+                        <div class="cert-overlay">
+                            <a href="certificates/code cracking.jpg" download="Code_Cracking_Certificate.jpg" class="download-btn">
+                                <i class="fas fa-download"></i>
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cert-content">
+                        
+                        <h3 class="cert-title">Code Craking</h3>
+                        <p class="cert-issuer">Nandha College of Technology</p>
+                        <p class="cert-date">2024</p>
+                    </div>
+                </div>
+                
+                
+                <div class="cert-card">
+                    <div class="cert-image">
+                        <img src="certificates/project presentation(Nandha).jpg" alt="Paper Presentation Certificate">
+                        <div class="cert-overlay">
+                            <a href="certificates/project presentation(Nandha).jpg" download="Paper_Presentation_Certificate.jpg" class="download-btn">
+                                <i class="fas fa-download"></i>
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cert-content">
+                        
+                        <h3 class="cert-title">Paper Presentation</h3>
+                        <p class="cert-issuer">Mahendra Engineering College</p>
+                        <p class="cert-date">2024</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-image">
+                        <img src="certificates/Project Expo(Nandha).jpg" alt="Project Expo Certificate">
+                        <div class="cert-overlay">
+                            <a href="certificates/Project Expo(Nandha).jpg" download="Project_Expo_Certificate.jpg" class="download-btn">
+                                <i class="fas fa-download"></i>
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cert-content">
+                        
+                        <h3 class="cert-title">Project Expo</h3>
+                        <p class="cert-issuer">Nandha College of Technology</p>
+                        <p class="cert-date">2024</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's work together</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>vg1379035@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Vellakovil, Tiruppur, Tamil Nadu, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>LinkedIn</h3>
+                            <p>linkedin.com/in/venugopal-v-ab31752a2</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>GitHub</h3>
+                            <p>github.com/venu-420</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <h3>Venugopal V</h3>
+                    <p>Building the future, one line of code at a time.</p>
+                </div>
+                <div class="footer-right">
+                    <div class="social-links">
+                        <a href="https://github.com/venu-420" class="social-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/venugopal-v-ab31752a2/" class="social-link" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:vg1379035@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Venugopal V. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
